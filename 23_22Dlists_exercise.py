@@ -1,0 +1,13 @@
+# NumPad en liste
+
+numpad = (
+    (1, 2, 3),
+    (4, 5, 6),
+    (7, 8, 9),
+    ("*", 0, "#")
+)
+
+for row in numpad:
+    for char in row:
+        print(char, end=" ")
+    print()
