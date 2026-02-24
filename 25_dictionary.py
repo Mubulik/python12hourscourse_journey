@@ -37,3 +37,6 @@ capitales = {"France":"Paris",
 # Pour avoir toutes les paires :
 # for key, value in capitales.items():
 #     print(f"{key} : {value}")
+
+
+# print(capitales["France"])
